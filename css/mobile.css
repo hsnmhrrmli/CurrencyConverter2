@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media (min-width: 320px) and (max-width: 1000px) {
+
+
+    .menuItem {
+        display: block;
+        font-size: 7.84077vw;
+        margin-bottom: 9.73583vw;
+        text-decoration: none;
+        margin-left: 9.89144vw;
+        font-family: "roboto";
+        color: white;
+        background-color: #833ae0;
+        width:60vw;
+        padding-left: 0.79323vw;
+        margin-top: 2.32205vw;
+    }
+    ul{
+        text-decoration: none;
+        overflow-y: scroll;
+       
+        
+    }
+    .hamburger {
+        position: absolute;
+        z-index: 100;
+        right: 5.93004vw;
+        padding: 0.48251vw;
+        width:5.48546vw;
+        border: none;
+        background: #F5F5F6;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    .closeIcon {
+        display: none;
+        position: fixed;
+        top: 1.32205vw;
+    }
+
+    .menu {
+        position: fixed;
+        transform: translateX(100%);
+        transition: transform 0.3s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: #F5F5F6;
+        color: white;
+        list-style: none;
+        padding-top: 4rem;
+        
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+
+    .material-icons {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 6.87575vw;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .active {
+        background-color: #833ae0;
+        color: white;
+    }
+
+    button {
+        border-radius: 0;
+        height: 7.5vw;
+        width: 15.62066vw;
+        align-self: center;
+        align-items: center;
+        font-family: "roboto";
+        font-size: 3.04167vw;
+        border: none;
+        background: none;
+        border-right: 1px solid #b5bbc4;
+    }
+
+    button:last-child {
+        border-right: none;
+        border-top-right-radius: 0.26042vw;
+        border-bottom-right-radius: 0.26042vw;
+    }
+
+    button:first-child {
+        border-top-left-radius: 0.26042vw;
+        border-bottom-left-radius: 0.26042vw;
+    }
+
+    main {
+        width: 100vw;
+        margin-bottom: 5vw;
+    }
+
+    .topside {
+        background: #F5F5F6;
+        width: 100vw;
+        height: 10.34028vw;
+        display: flex;
+    }
+
+    img {
+        width: 17.72569vw;
+        height: 5.99653vw;
+        margin-top: 2.30208vw;
+        margin-left: 3.61882vw;
+    }
+
+    .topmid {
+        display: none;
+        align-items: center;
+    }
+
+    .topend {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-family: 'Roboto';
+        align-items: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.30208vw;
+        line-height: 1.12847vw;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color:white;
+        background-color:#833ae0 ;
+        width: 14.33681vw;
+        height: 6.86458vw;
+        border-radius: 0.69444vw;
+        margin-left: 48.2509vw;
+    }
+
+    .header {
+        margin-bottom: 60px;
+        width: 79.95486vw;
+        height: 2.77778vw;
+        margin-left: 10.96181vw;
+        margin-top: 7.86111vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 7.125vw;
+        line-height: 3.64583vw;
+        color: #000000;
+    }
+
+    .start {
+        margin-bottom: 1.80941vw;
+        width: 24.41667vw;
+        height: 2.43056vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.04167vw;
+        line-height: 1.21528vw;
+        display: flex;
+        align-items: center;
+        color: #9F9F9F;
+    }
+
+    #start1 {
+        margin-left: 21.96181vw;
+        margin-top: 2.86458vw;
+    }
+
+    #start2 {
+        margin-left: 21.96181vw;
+        margin-top: 2.86458vw;
+    }
+
+    #start {
+
+        margin-left: 21.96181vw;
+        margin-top: 0.08681vw;
+    }
+
+    #end {
+        margin-left: 21.96181vw;
+        margin-top: 0.08681vw;
+    }
+
+    .currencies1,
+    .currencies2 {
+        display: flex;
+        width: 58.48264vw;
+        height: 7.60417vw;
+        border-left: none;
+        justify-content: space-evenly;
+        border: 0.08681vw solid #E5E5E5;
+        border-radius: 0.26042vw;
+        box-shadow: 0.33333vw 0.5vw 1.53333vw #3f3b40;
+    }
+
+    .currencies1 div,
+    .currencies2 div {
+        border-right: 0.08681vw solid #E5E5E5;
+        height: 7.60417vw;
+        width: 15.62066vw;
+        align-self: center;
+        align-items: center;
+        font-family: "roboto";
+        font-size: 3.04167vw;
+    }
+
+    .currencies1 div:last-child,
+    .currencies2 div:last-child {
+        border-right: none;
+    }
+
+    span {
+        display: block;
+        margin-left: 4.10133vw;
+        margin-top: 1.89vw;
+    }
+
+    .startingval {
+        width: 58.65625vw;
+        height: 20.85417vw;
+        border: 0.08681vw solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 0.26042vw;
+        box-shadow: 0.33333vw 0.5vw 1.53333vw #3f3b40;
+    }
+
+    #startingval1 {
+        margin-left: 21.96181vw;
+        margin-top: 2.17014vw;
+        margin-bottom: 10.6152vw;
+    }
+
+    #startingval2 {
+        margin-left: 21.67708vw;
+        margin-top: 2.17014vw;
+    }
+
+    input {
+        margin-left: 1.38889vw;
+        margin-top: 0.95486vw;
+        width: 52.76389vw;
+        height: 8.29861vw;
+        border: none;
+        outline: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6.125vw;
+        line-height: 3.64583vw;
+        color: #000000;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .available {
+        width: 50.32986vw;
+        height: 3.43056vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.9vw;
+        line-height: 1.21528vw;
+        display: flex;
+        align-items: center;
+        color: #C6C6C6;
+        margin-left: 1.38889vw;
+        margin-top: 3.73611vw;
+    }
+
+}

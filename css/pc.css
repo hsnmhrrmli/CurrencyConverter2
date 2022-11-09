@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1001px) {
+    .hamburger {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    button {
+        border-radius: 0;
+        height: 2.5vw;
+        width: 5.62066vw;
+        align-self: center;
+        align-items: center;
+        font-family: "roboto";
+        font-size: 1.04167vw;
+        border: none;
+        background: none;
+        border-right: 1px solid #b5bbc4;
+    }
+img:hover, .topmid div:hover, .topend:hover{
+    cursor: pointer;
+}
+    button:last-child {
+        border-right: none;
+        border-top-right-radius: 0.26042vw;
+        border-bottom-right-radius: 0.26042vw;
+    }
+
+    button:first-child {
+        border-top-left-radius: 0.26042vw;
+        border-bottom-left-radius: 0.26042vw;
+    }
+
+    .active {
+        background-color: #833ae0;
+        color: white;
+    }
+
+    main {
+        width: 100vw;
+        margin-bottom: 5vw;
+    }
+
+    .topside {
+        background: #F5F5F6;
+        width: 100vw;
+        height: 4.34028vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    img {
+        width: 7.72569vw;
+        height: 1.99653vw;
+        margin-top: 1.30208vw;
+    }
+
+    .topmid {
+        display: flex;
+        align-items: center;
+    }
+
+    .topmid div {
+        width: 3.81944vw;
+        height: 1.64931vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.30208vw;
+        line-height: 1.12847vw;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+        margin-right: 3.47222vw;
+        color: #959BA4;
+    }
+
+    .topmid div:hover {
+        color: black;
+    }
+
+    .topend {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-family: 'Roboto';
+        align-items: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.30208vw;
+        line-height: 1.12847vw;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: white;
+        background-color: #833ae0;
+        width: 6.33681vw;
+        height: 2.86458vw;
+        border-radius: 0.69444vw;
+    }
+
+    .header {
+        width: 50.95486vw;
+        height: 2.77778vw;
+        margin-left: 21.96181vw;
+        margin-top: 4.86111vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.125vw;
+        line-height: 3.64583vw;
+        color: #000000;
+    }
+
+    .start {
+        width: 10.41667vw;
+        height: 2.43056vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.04167vw;
+        line-height: 1.21528vw;
+        display: flex;
+        align-items: center;
+        color: #9F9F9F;
+    }
+
+    #start1 {
+        margin-left: 21.96181vw;
+        margin-top: 2.86458vw;
+    }
+
+    #start2 {
+        margin-left: 10.67708vw;
+        margin-top: 2.86458vw;
+    }
+
+    #start {
+
+        margin-left: 21.96181vw;
+        margin-top: 0.08681vw;
+    }
+
+    #end {
+        margin-left: 10.67708vw;
+        margin-top: 0.08681vw;
+    }
+
+    .currencies1,
+    .currencies2 {
+        display: flex;
+        width: 22.48264vw;
+        height: 2.7vw;
+        border-left: none;
+        justify-content: space-evenly;
+        border: 0.08681vw solid #E5E5E5;
+        border-radius: 0.26042vw;
+        box-shadow: 0.4vw 0.4vw 0.4vw #3f3b40;
+    }
+
+    .currencies1 div,
+    .currencies2 div {
+        border-right: 0.08681vw solid #E5E5E5;
+        height: 2.60417vw;
+        width: 5.62066vw;
+        align-self: center;
+        align-items: center;
+        font-family: "roboto";
+        font-size: 1.04167vw;
+    }
+
+    .currencies1 div:last-child,
+    .currencies2 div:last-child {
+        border-right: none;
+    }
+
+    span {
+        display: block;
+        margin-left: 1.82292vw;
+        margin-top: 0.69444vw;
+    }
+
+    .currencies1 div:hover,
+    .currencies2 div:hover {
+        color: white;
+        background-color: #833AE0;
+    }
+
+    .startingval {
+        width: 22.65625vw;
+        height: 8.85417vw;
+        border: 0.08681vw solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 0.26042vw;
+        box-shadow: 0.4vw 0.4vw 0.4vw #3f3b40;
+    }
+
+    #startingval1 {
+        margin-left: 21.96181vw;
+        margin-top: 2.17014vw;
+    }
+
+    #startingval2 {
+        margin-left: 10.67708vw;
+        margin-top: 2.17014vw;
+    }
+
+    input {
+        margin-left: 1.38889vw;
+        margin-top: 0.95486vw;
+        width: 19.76389vw;
+        height: 3.29861vw;
+        border: none;
+        outline: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.125vw;
+        line-height: 3.64583vw;
+        color: #000000;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .available {
+        width: 10.32986vw;
+        height: 2.43056vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9vw;
+        line-height: 1.21528vw;
+        display: flex;
+        align-items: center;
+        color: #C6C6C6;
+        margin-left: 1.38889vw;
+        margin-top: 1.73611vw;
+    }
+
+    .main {
+        display: flex;
+    }
+}

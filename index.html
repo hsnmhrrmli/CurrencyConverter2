@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Coverter</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/pc.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+</head>
+
+<body>
+    <main>
+        <div class="topside">
+            <img src="./img/logo.svg" alt="">
+
+
+            <ul class="menu">
+                <li><a class="menuItem" href="#">Bank</a></li>
+                <li><a class="menuItem" href="#">Biznes</a></li>
+                <li><a class="menuItem" href="#">Invest</a></li>
+                <li><a class="menuItem" href="#">Sığorta</a></li>
+                <li><a class="menuItem" href="#">Mobil</a></li>
+                <li><a class="menuItem" href="#">Səfərlər</a></li>
+                <li><a class="menuItem" href="#">Əyləncə</a></li>
+            </ul>
+            <button class="hamburger">
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+            </button>
+
+
+            <div class="topmid">
+                <div>Bank</div>
+                <div>Biznes</div>
+                <div>Invest</div>
+                <div>Sığorta</div>
+                <div>Mobil</div>
+                <div>Səfərlər</div>
+                <div>Əyləncə</div>
+            </div>
+            <div class="topend">Daxil Ol</div>
+        </div>
+        <div class="header">Onlayn valyuta konverter</div>
+        <div class="main">
+            <div>
+                <div class="start" id="start1">Başlanğıc məbləğ</div>
+                <div class="currencies1" id="start">
+                    <button class="active" value="rub">RUB</button>
+                    <button value="usd">USD</button>
+                    <button value="eur">EUR</button>
+                    <button value="gbp">GBP</button>
+                </div>
+                <div class="startingval" id="startingval1">
+                    <input class="starting" value='1' placeholder="...">
+                    <div class="available" id="left"></div>
+                </div>
+            </div>
+            <div>
+                <div class="start" id="start2">Son məbləğ</div>
+                <div class="currencies2" id="end">
+                    <button value="rub">RUB</button>
+                    <button class=" active" value="usd">USD</button>
+                    <button value="eur">EUR</button>
+                    <button value="gbp">GBP</button>
+                </div>
+                <div class="startingval" id="startingval2">
+                    <input class="ending" value='1' placeholder="...">
+                    <div class="available" id="right"></div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/imask.js"></script>
+        <script src="./js/main.js"></script>
+    </main>
+</body>
+
+</html>
